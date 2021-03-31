@@ -4,12 +4,19 @@ git config --global user.email "useremail@example.com" :- To make the userEmail 
 git status :- To check status for the project/repository .
 git init :- To convert a project/repository into git repository
 git add . :- To stage all files from working directory 
+git add nameOfFile :- To stage a specific file only from working repository
 git commit -m "Version 1" :- To commit/save all changes
-git log :- To view changes in files .
+git log :- To view changes in files by people and at what particulat time.
 git add . :- To stange all files from working directory
 git commit -m "Version 2" :- To commit/save all changes
 git log :- To view changes in files .
 ################### Vid 4 #############################
 git push -u origin master :- To push all commits/saved files to github account
 git pull origin master :- To pull changes done in files from github account
-
+###################Vid 6 #############################
+git diff :- It will show the name of all the unstaged File in which some changes has been done recently .
+git diff filename :- To view changes done in a particular unstaged file .
+git diff --staged nameOfFile :- To view changes done in a particular staged file .
+git reset filename :- To unstage a paticular staged file
+git checkout nameOfFile :- It will reset the staged file to old version
+git checkout . :- It will reset all the unstaged files.
