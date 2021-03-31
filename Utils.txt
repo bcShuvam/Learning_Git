@@ -3,3 +3,4 @@ Utils function for version 2.
 Utils function for version 3.
 Utils function for version 4.
 Utils function for version 5.
+Video 6 Scanning & Changes To Files Using Git diff command .
