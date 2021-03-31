@@ -1,0 +1,11 @@
+git --version :- To check version of git
+git config --global user.name "username" :- To make the username global which will be used for all repository
+git config --global user.email "useremail@example.com" :- To make the userEmail global which will be used for all repository
+git status :- To check status for the project/repository .
+git init :- To convert a project/repository into git repository
+git add . :- To stage all files from working directory 
+git commit -m "Version 1" :- To commit/save all changes
+git log :- To view changes in files .
+git add . :- To stange all files from working directory
+git commit -m "Version 2" :- To commit/save all changes
+git log :- To view changes in files .
