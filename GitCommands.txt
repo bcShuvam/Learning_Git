@@ -9,3 +9,7 @@ git log :- To view changes in files .
 git add . :- To stange all files from working directory
 git commit -m "Version 2" :- To commit/save all changes
 git log :- To view changes in files .
+################### Vid 4 #############################
+git push -u origin master :- To push all commits/saved files to github account
+git pull origin master :- To pull changes done in files from github account
+
