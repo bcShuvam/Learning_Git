@@ -20,3 +20,7 @@ git diff --staged nameOfFile :- To view changes done in a particular staged file
 git reset filename :- To unstage a paticular staged file
 git checkout nameOfFile :- It will reset the staged file to old version
 git checkout . :- It will reset all the unstaged files.
+###################Vid 7 #############################
+git add -A :- Stages All
+git add . :- Stages new modified , without deleted
+git add -u :- Stages modified and deleted , without new
