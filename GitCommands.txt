@@ -5,7 +5,7 @@ git status :- To check status for the project/repository .
 git init :- To convert a project/repository into git repository
 git add . :- To stage all files from working directory 
 git add nameOfFile :- To stage a specific file only from working repository
-git commit -m "Version 1" :- To commit/save all changes
+git commit -m "any type of description of commit" :- To commit/save all changes
 git log :- To view changes in files by people and at what particulat time.
 git add . :- To stange all files from working directory
 git commit -m "Version 2" :- To commit/save all changes
@@ -37,3 +37,14 @@ git clone git@github.com:bcShuvam/Learning_Git.git . :- It will clone the reposi
 touch .gitignore :- It will create a file named ".gitignore" In which we can put extinsions of files and name of folder which we dont want to track .
 Example : *.py , *.exe , *.xml , *.dll etc
 notepad .gitignore :- It will open notepad in this file to write.
+
+###################Vid 10 #############################
+First Create new repository in github And then Copy the SSH link and then go to git bash
+master is default branch in all repository .
+git remote add origin pasteTheLinkHere :- It will push the files and folder in the new repository.
+git branch :- It will show lis of all branches in this repository
+git branch Name-Of_New_Branch :- It will create a new branch in this repository
+git checkout Name-Of_New_Branch :- It will switch branch from master to Name-Of_New_Branch
+git checkout master :- It will switch branch from Name-Of_New_Branch to master.
+git merge Name-Of_New_Branch :- It will merge Name-Of_New_Branch with master branch
+git push -u origin master :- It will upload files to github.
