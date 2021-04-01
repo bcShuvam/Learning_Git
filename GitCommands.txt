@@ -24,3 +24,7 @@ git checkout . :- It will reset all the unstaged files.
 git add -A :- Stages All
 git add . :- Stages new modified , without deleted
 git add -u :- Stages modified and deleted , without new
+###################Vid 7 #############################
+ls -la :- It will show list of all files and folder including hidden ones.
+git clone git@github.com:bcShuvam/Learning_Git.git :- It is used to clone a repository inside a default folder "i.e Project name/repository name".
+git clone git@github.com:bcShuvam/Learning_Git.git . :- It will clone the repository without making any folder .
