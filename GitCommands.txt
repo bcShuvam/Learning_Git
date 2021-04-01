@@ -48,3 +48,8 @@ git checkout Name-Of_New_Branch :- It will switch branch from master to Name-Of_
 git checkout master :- It will switch branch from Name-Of_New_Branch to master.
 git merge Name-Of_New_Branch :- It will merge Name-Of_New_Branch with master branch
 git push -u origin master :- It will upload files to github.
+
+###################Vid 11 #############################
+git branch -d Name-Of_New_Branch :- It will delete new branch from our computer.
+git branch :- It will show list of all branch
+git push origin --delete Name-Of_New_Branch :- It will delete new branch from github
