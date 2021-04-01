@@ -10,9 +10,11 @@ git log :- To view changes in files by people and at what particulat time.
 git add . :- To stange all files from working directory
 git commit -m "Version 2" :- To commit/save all changes
 git log :- To view changes in files .
+
 ################### Vid 4 #############################
 git push -u origin master :- To push all commits/saved files to github account
 git pull origin master :- To pull changes done in files from github account
+
 ###################Vid 6 #############################
 git diff :- It will show the name of all the unstaged File in which some changes has been done recently .
 git diff filename :- To view changes done in a particular unstaged file .
@@ -20,11 +22,18 @@ git diff --staged nameOfFile :- To view changes done in a particular staged file
 git reset filename :- To unstage a paticular staged file
 git checkout nameOfFile :- It will reset the staged file to old version
 git checkout . :- It will reset all the unstaged files.
+
 ###################Vid 7 #############################
 git add -A :- Stages All
 git add . :- Stages new modified , without deleted
 git add -u :- Stages modified and deleted , without new
+
 ###################Vid 8 #############################
 ls -la :- It will show list of all files and folder including hidden ones.
 git clone git@github.com:bcShuvam/Learning_Git.git :- It is used to clone a repository inside a default folder "i.e Project name/repository name".
 git clone git@github.com:bcShuvam/Learning_Git.git . :- It will clone the repository without making any folder .
+
+###################Vid 9 #############################
+touch .gitignore :- It will create a file named ".gitignore" In which we can put extinsions of files and name of folder which we dont want to track .
+Example : *.py , *.exe , *.xml , *.dll etc
+notepad .gitignore :- It will open notepad in this file to write.
